@@ -23,10 +23,10 @@ $(window).scroll(function(){
   }
 
   if ($(window).width() < 620) {
-    $(".header1").css({"margin-top":"-200px"});
+    $(".header1").css({"margin-top":"-300px"});
     if (scroll > 100) {
       $(".menu").css({"background":"#000"});
-      $(".menu").css({"padding":"50px 0"});
+      $(".menu").css({"padding":"25px 0"});
       $(".menu").addClass("shadow");
       $("#navbar").addClass("shadow3");
       $("nav ul li a").css({"color":"#fff"});

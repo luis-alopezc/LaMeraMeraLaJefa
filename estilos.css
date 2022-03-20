@@ -391,7 +391,7 @@ footer:after {
 	}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1090px) {
 
   .content{
     padding: 0;
@@ -561,8 +561,13 @@ header #navbar li a{
 
 
 @media screen and (max-width: 630px) {
-	.header1{
-		margin-top: -200px;
+	.content{
+		padding: 0;
+		max-width: 100%;
+	}
+	.content header{
+		padding: 2%;
+		border-radius: 1em;
 	}
 	header .logo {
 	  font-size: 0.6em;
@@ -595,13 +600,20 @@ header #navbar li a{
   }
 }
 
-/*@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
+	.content{
+		padding: 0;
+		max-width: 100%;
+	}
+	.content header{
+		padding: 2%;
+		border-radius: 1em;
+	}
 	.header1{
 		margin-top: -300px;
 	}
 	header {
-		height: 60vh;
+		height: 50vh;
 	  margin-top: -300px;
 	}
 }
-*/
