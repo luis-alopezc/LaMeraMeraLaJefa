@@ -566,14 +566,14 @@ header #navbar li a{
     width: auto;
   }
 	.header1{
-		margin-top: -400px;
+		margin-top: -300px;
 	}
 	header .logo {
 	  font-size: 0.6em;
 	}
 	header {
 		height: 80vh;
-	  margin-top: -400px;
+	  margin-top: -300px;
 	}
 
 	.contenedor-logo img {
