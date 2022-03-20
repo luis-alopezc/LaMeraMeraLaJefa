@@ -571,6 +571,10 @@ header #navbar li a{
 	header .logo {
 	  font-size: 0.6em;
 	}
+	header {
+		height: 80vh;
+	  margin-top: -200px;
+	}
 
 	.contenedor-logo img {
     max-width: 15vh;
