@@ -560,33 +560,35 @@ header #navbar li a{
 
 
 
-@media screen and (max-width: 550px) {
-
+@media screen and (max-width: 600px) {
+	.content{
+    width: auto;
+  }
   header {
-    height: 80vh;
-    margin-top: 900px;
+    height: 90vh;
+    margin-top: 1500px;
   }
 	header .logo {
 	  font-size: 0.6em;
 	}
 
 	.contenedor-logo img {
-    max-width: 20vh;
-    max-height: 20vh;
+    max-width: 15vh;
+    max-height: 15vh;
 	}
 
   #activityes .item {
-    width: 80%;
+    width: 90%;
     text-align: center;
   }
     .contenedor-titulo .titulo-titulo h1{
-      font-size: 30px;
+      font-size: 25px;
     }
     .contenedor-titulo .titulo-titulo h2{
-      font-size: 20px;
+      font-size: 15px;
     }
     .contenedor-titulo .titulo-titulo h3{
-      font-size: 12px;
+      font-size: 10px;
     }
   footer .contenedor{
     width: auto;
