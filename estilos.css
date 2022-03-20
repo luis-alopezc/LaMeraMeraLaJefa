@@ -94,7 +94,6 @@ header #navbar li a:hover{
 header {
 	height: 100vh;
   background: linear-gradient(rgba(240,241,240,.7),rgba(240,240,240,.7)), url('imagenes/1.jpg') left no-repeat;
-  /*background:url('imagenes/1.jpg') left no-repeat;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -474,6 +473,7 @@ header #navbar li a{
   }
 }
 @media screen and (max-width: 720px) {
+
   .content{
     width: auto;
   }
@@ -484,7 +484,7 @@ header #navbar li a{
   }
   header {
     height: 80vh;
-    margin-top: -510px;
+    margin-top: -710px;
   }
 	header .logo {
 	  font-size: 0.6em;
@@ -554,5 +554,41 @@ header #navbar li a{
   .myicono{
   display: block;
   text-align: right;
+  }
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+  header {
+    height: 80vh;
+    margin-top: 900px;
+  }
+	header .logo {
+	  font-size: 0.6em;
+	}
+
+	.contenedor-logo img {
+    max-width: 20vh;
+    max-height: 20vh;
+	}
+
+  #activityes .item {
+    width: 80%;
+    text-align: center;
+  }
+    .contenedor-titulo .titulo-titulo h1{
+      font-size: 30px;
+    }
+    .contenedor-titulo .titulo-titulo h2{
+      font-size: 20px;
+    }
+    .contenedor-titulo .titulo-titulo h3{
+      font-size: 12px;
+    }
+  footer .contenedor{
+    width: auto;
   }
 }
