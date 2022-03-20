@@ -566,7 +566,7 @@ header #navbar li a{
     width: auto;
   }
 	.header1{
-		margin-top: 0px;
+		margin-top: -200px;
 	}
 	header .logo {
 	  font-size: 0.6em;
