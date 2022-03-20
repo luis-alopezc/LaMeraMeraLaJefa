@@ -568,7 +568,7 @@ header #navbar li a{
 	  font-size: 0.6em;
 	}
 	header {
-		height: 50vh;
+		height: 60vh;
 	  margin-top: -200px;
 	}
 
@@ -595,7 +595,7 @@ header #navbar li a{
   }
 }
 
-@media screen and (max-width: 390px) {
+/*@media screen and (max-width: 390px) {
 	.header1{
 		margin-top: -300px;
 	}
@@ -604,3 +604,4 @@ header #navbar li a{
 	  margin-top: -300px;
 	}
 }
+*/
