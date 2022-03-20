@@ -3,7 +3,7 @@ $(document).ready(function(){
 $(window).scroll(function(){
   scroll = $(window).scrollTop();
 
-  if ($(window).width() > 480) {
+  if ($(window).width() > 620) {
     $(".header1").css({"margin-top":"-197px"});
     if (scroll > 100) {
       $(".menu").css({"background":"#000"});
@@ -22,7 +22,7 @@ $(window).scroll(function(){
     }
   }
 
-  if ($(window).width() < 480) {
+  if ($(window).width() < 620) {
     $(".header1").css({"margin-top":"-510px"});
     if (scroll > 100) {
       $(".menu").css({"background":"#000"});
