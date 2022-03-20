@@ -23,7 +23,7 @@ $(window).scroll(function(){
   }
 
   if ($(window).width() < 620) {
-    $(".header1").css({"margin-top":"-200px"});
+    $(".header1").css({"margin-top":"-400px"});
     if (scroll > 100) {
       $(".menu").css({"background":"#000"});
       $(".menu").css({"padding":"50px 0"});
